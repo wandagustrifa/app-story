@@ -1,0 +1,2 @@
+APP_URL=https://wandagustrifa.github.io/app-story/
+MAP_SERVICE_API_KEY=czL1JnZ37lKR8dKtEp8Y
