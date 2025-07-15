@@ -2,10 +2,13 @@
   "name": "app-story",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://<wandagustrifa.github.io/app-story",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack serve --config webpack.dev.js",
-    "serve": "npm run build && http-server dist"
+    "serve": "http-server dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Wanda_Gustrifa <wandagustrifa@gmail.com>",
