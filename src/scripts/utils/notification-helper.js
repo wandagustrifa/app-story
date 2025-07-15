@@ -37,7 +37,7 @@ const NotificationHelper = {
         return;
       }
       
-      const convertedVapidKey = this._urlBase64ToUint8Array(CONFIG.VAPID_PUBLIC_KEY);
+      const convertedVapidKey = this._urlBase64ToUint8Array('BCCs2eonMI-6H2ctvFaWg-UYdDv387Vno_bzUzALpB442r2lCnsHmtrx8biyPi_E-1fSGABK_Qs_GlvPoJJqxbk');
       const subscription = await this._registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: convertedVapidKey,
