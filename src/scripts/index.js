@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
   setupDrawer();
   app.renderPage();
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.bundle.js')
+    navigator.serviceWorker.register('./sw.bundle.js')
       .then(() => console.log('Service Worker berhasil diregistrasi.'))
       .catch(() => console.error('Registrasi Service Worker gagal.'));
   }
