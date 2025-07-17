@@ -8,57 +8,57 @@
   "theme_color": "#6d28d9",
   "icons": [
     {
-      "src": "icons/icon-72x72.png",
+      "src": "images/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-96x96.png",
+      "src": "images/icons/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-128x128.png",
+      "src": "images/icons/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-144x144.png",
+      "src": "images/icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-152x152.png",
+      "src": "images/icons/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-192x192.png",
+      "src": "images/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-384x384.png",
+      "src": "images/icons/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-512x512.png",
+      "src": "images/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "screenshots/desktop.png",
+      "src": "images/screenshots/desktop.png",
       "type": "image/png",
       "sizes": "1280x720",
       "form_factor": "wide",
       "label": "Tampilan Beranda di Desktop"
     },
     {
-      "src": "screenshots/mobile.png",
+      "src": "images/screenshots/mobile.png",
       "type": "image/png",
       "sizes": "345x715",
       "form_factor": "narrow",
@@ -71,14 +71,14 @@
       "short_name": "Tambah",
       "description": "Buka halaman untuk menambahkan cerita baru.",
       "url": "/#/add-story",
-      "icons": [{ "src": "icons/plus.png", "sizes": "96x96" }]
+      "icons": [{ "src": "images/icons/plus.png", "sizes": "96x96" }]
     },
     {
       "name": "Cerita Favorit",
       "short_name": "Favorit",
       "description": "Lihat cerita yang sudah Anda tandai sebagai favorit.",
       "url": "/#/favorites",
-      "icons": [{ "src": "icons/heart.png", "sizes": "96x96" }]
+      "icons": [{ "src": "images/icons/heart.png", "sizes": "96x96" }]
     }
   ]
 }
